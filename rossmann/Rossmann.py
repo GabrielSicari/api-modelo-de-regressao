@@ -12,7 +12,7 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 class Rossmann(object):
 
     def __init__(self):
-        self.home_path = 'C:/Users/sicar/ds/ds/codigos/ds_em_producao/'
+        self.home_path = ''
 
         self.competition_distance_scaler = pickle.load(
             open(self.home_path + 'parameter/competition_distance_scaler.pkl',
