@@ -1,0 +1,7 @@
+xgboost==1.7.2
+pickleshare==0.7.5
+inflection==0.5.1
+pandas==1.5.2
+numpy==1.23.5
+Flask==2.2.2
+scikit-learn==1.2.0
